@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  docker-meteor:
+    image: igez/meteord-imagick
+    volumes:
+      - /Users/juliosguz/server/monbuilding/monbuildingmeteor/monbuilding:/app
+  # docker-angular-cli:
+  #   image: juliosguz/docker-angular-cli:7.0.2
+  #   volumes:
+  #     - ./lol:/app
+  #   command: bash -c 'npm install && ng build --aot --prod --outputPath=./dist'
