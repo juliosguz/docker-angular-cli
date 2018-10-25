@@ -1,3 +1,3 @@
 # docker-angular-cli
 
-docker build . --label local-docker-angular-cli
+docker build -t local-docker-angular-cli .
